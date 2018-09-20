@@ -54,19 +54,20 @@ nav ul {
   padding: 0;
 }
 
+nav li {
+  border-radius: 20px;
+}
+
 nav a {
   color: var(--nav-link-color);
   text-decoration: none;
   display: block;
   text-align: center;
   padding: 10px;
+  border-radius: 20px;
 }
 
 nav a:hover {
-  background-color: var(--nav-hover-color);
-}
-
-#burger:hover {
   background-color: var(--nav-hover-color);
 }
 
@@ -91,6 +92,17 @@ nav a:hover {
 #logo:hover {
   background-color: var(--nav-hover-color);
 }
+
+/* --- Burger Styles --- */
+
+#burger {
+  border-radius: 20px;
+}
+
+#burger:hover {
+  background-color: var(--nav-hover-color);
+}
+
 
 /* --- Burger Animation --- */
 
@@ -173,10 +185,6 @@ nav a:hover {
 
 #logo li {
   flex: 1 1 0;
-}
-
-#logo.open {
-  align-items: flex-start;
 }
 
 /* --- Desktop View --- */
