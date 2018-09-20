@@ -83,6 +83,10 @@ nav a:hover {
   max-height: 100px;
 }
 
+#logo:hover {
+  background-color: var(--nav-hover-color);
+}
+
 /* --- Burger Animation --- */
 
 #burger {
