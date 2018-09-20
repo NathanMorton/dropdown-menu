@@ -27,7 +27,7 @@ nav {
   background-color: var(--nav-background-color);
   padding: 10px;
   overflow: hidden;
-  max-height: 65px;
+  max-height: 70px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -85,6 +85,7 @@ nav a:hover {
 #logo {
   max-width: 100px;
   max-height: 100px;
+  border-radius: 20px;
 }
 
 #logo:hover {
@@ -94,8 +95,8 @@ nav a:hover {
 /* --- Burger Animation --- */
 
 #burger {
-  width: 60px;
-  height: 45px;
+  width: 70px;
+  height: 55px;
   position: relative;
   transform: rotate(0deg);
   transition: .5s ease-in-out;
@@ -106,25 +107,25 @@ nav a:hover {
   display: block;
   position: absolute;
   height: 9px;
-  width: 100%;
+  width: 80%;
   background-color: var(--burger-span-color);
   border-radius: 9px;
   opacity: 0.7;
-  left: 0;
+  left: 10%;
   transform: rotate(0deg);
   transition: .25s ease-in-out;
 }
 
 #burger span:nth-child(1) {
-  top: 0px;
+  top: 10%;
 }
 
 #burger span:nth-child(2),#burger span:nth-child(3) {
-  top: 18px;
+  top: 38%;
 }
 
 #burger span:nth-child(4) {
-  top: 36px;
+  top: 65%;
 }
 
 #burger.open span:nth-child(1) {
