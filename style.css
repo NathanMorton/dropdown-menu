@@ -66,6 +66,10 @@ nav a:hover {
   background-color: var(--nav-hover-color);
 }
 
+#burger:hover {
+  background-color: var(--nav-hover-color);
+}
+
 .open {
   display: block;
 }
