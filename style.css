@@ -23,28 +23,19 @@ body {
 
 /* --- Nav Styles --- */
 
-.wrap {	overflow:hidden; }
-
-.inner {	                   
-       margin-top:-100%;
-  -webkit-transition:margin-top 500ms;
-            transition:margin-top 500ms;
-}
-
-.inner.open { margin-top:0px; }
-
 nav {
   overflow: hidden;
-  height: 65px;
+  max-height: 65px;
+  transition: max-height 1s ease-in-out;
 }
 
 nav.open {
-  height: auto;
+  max-height: 500px;
 }
 
 #menu {
-  margin-top: -100%;
-  transition: margin-top 0.5s;
+  /* margin-top: -100%; */
+  transition: all 0.5s;
 }
 
 #menu.open {
